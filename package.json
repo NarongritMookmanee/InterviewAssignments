@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarongritMookmanee/InterviewAssignments.git"
+  },
+  "author": "Narongrit Mookmanee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NarongritMookmanee/InterviewAssignments/issues"
+  },
+  "homepage": "https://github.com/NarongritMookmanee/InterviewAssignments#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
